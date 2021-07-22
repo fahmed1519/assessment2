@@ -1,8 +1,6 @@
 #Python Program for the purpose of the DevOps Assignment 2
 
-assessment1 = int(input("Enter the Assessment 1 Marks:"))
-assessment2 = int(input("Enter the Assessment 2 Marks:"))
-assessment3 = int(input("Enter the Assessment 3 Marks:"))
+assessment1, assessment2, assessment3 = eval(input("Enter the Assessment 1, Assessment 2, Assessment 3 Marks:"))
 
 total_marks = (assessment1 * 20 + assessment2 * 40 + assessment3 *40)/100 
 
